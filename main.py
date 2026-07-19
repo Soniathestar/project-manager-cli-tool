@@ -1,12 +1,13 @@
 # Example usage:
-#   python main.py add-user --name "Otoyo" --email "otoyo@example.com"
-#   python main.py add-project --user "Otoyo" --title "CLI Tool"
+#   python main.py add-user --name "Alex" --email "alex@example.com"
+#   python main.py add-project --user "Alex" --title "CLI Tool"
 #   python main.py add-task --project "CLI Tool" --title "Implement add-task"
 
 import argparse
 import difflib
 import logging
 import os
+import sys
 
 from models.user import User
 from models.project import Project
